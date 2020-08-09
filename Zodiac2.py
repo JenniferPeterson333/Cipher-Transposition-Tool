@@ -11,5 +11,5 @@ def all_possible_permutations(mylist):
 				yield perm[:i] + mylist[0:1] + perm[i:]
 
 #Test and see if we can read a file.
-file = open("/home/nancy/zodiak/python/mattest.txt", "r")
+file = open("mattest.txt", "r")
 print(file.read()) 
