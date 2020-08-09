@@ -11,8 +11,8 @@ def all_possible_permutations(mylist):
 				yield perm[:i] + mylist[0:1] + perm[i:]
 
 #Read file, create a list of strings using the readlines() function, and strip the newline character at the end.
-file = open("/home/nancy/zodiak/python/mat06-nospaces.txt", "r")
-with open("/home/nancy/zodiak/python/mat06-nospaces.txt", "r") as file:
+file = open("mat06-nospaces.txt", "r")
+with open("mat06-nospaces.txt", "r") as file:
 	listofstrings = file.readlines()
 newlist = []
 for str in listofstrings:
