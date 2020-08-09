@@ -11,12 +11,12 @@ def all_possible_permutations(mylist):
 				yield perm[:i] + mylist[0:1] + perm[i:]
 
 #Test and see if we can read a file. 
-file = open("/home/nancy/zodiak/python/mattest.txt", "r")
+file = open("mattest.txt", "r")
 #Test and see if we can find all possible permutations of the indicies of the matrix in the file.
 arrayofindices = (0, 1, 2, 3, 4)
 genobjnumlist = all_possible_permutations(arrayofindices)
 #Test and see if we can create a list of strings using the readlines() function.
-with open("/home/nancy/zodiak/python/mattest.txt", "r") as file:
+with open("mattest.txt", "r") as file:
 	listofstrings = file.readlines()
 #Strip the newline character at the end.
 newlist = []
