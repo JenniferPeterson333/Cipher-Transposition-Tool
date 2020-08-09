@@ -21,7 +21,7 @@ print ("output is:")
 for i in genobjnumlist:
  	print(i)
 #Test and see if we can create a list of strings using the readlines() function.
-with open("/home/nancy/zodiak/python/mattest.txt", "r") as file:
+with open("mat06-nospaces.txt", "r") as file:
 	listofstrings = file.readlines()
 print (listofstrings)
 #Strip the newline character at the end.
